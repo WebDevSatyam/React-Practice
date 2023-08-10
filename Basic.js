@@ -39,7 +39,11 @@
     //IMP: a component in React is just a JS fucntion
 
     // You can export the component and use it as a custom html tag to render that component where u import it.
-*/
+
+    // Types of Components:
+        1.Controlled Component : Both values as well as changes to the value are not handled by the component itself but in the parent component
+        2.Stateless/ Dumb/ Presentaional Component: Component which don't manage any state inside it, which are just there to present some data.
+    */
 
 /* Props: also known as properties
     props are one of the methods to pass the data to the our components to make them configurable and reusable.
